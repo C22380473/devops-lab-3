@@ -1,0 +1,19 @@
+# Ignore UTM VM images and disk files
+*.utm
+*.qcow2
+*.iso
+*.img
+
+# Ignore system-generated files
+.DS_Store
+*.swp
+__pycache__/
+*.pyc
+
+# Ignore Python virtual environments
+flask_venv/
+venv/
+
+# Ignore logs and temp files
+*.log
+nohup.out
